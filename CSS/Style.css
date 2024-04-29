@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	background-color: #F0FAED ;
+}
+
+
+/* Inicio Home*/
+
+.navbar {
+    height: 3rem;
+}
+
+
+.form-control {
+    width: 20rem;
+}
+
+.BannerCompleto{
+  Margin-bottom: 3rem;
+}
+.HeroBanner {
+  background-color: #F46666;
+  height:62.3rem;
+  width:40rem;
+  position: absolute;
+}
+
+.FotoHero {
+  width: 95rem;
+  height: 62.3rem;
+}
+
+.TextoHero {
+  color: white;
+  font-family: 'raleway';
+  text-align: right;
+  margin-right: 2rem;
+  margin-top: 10rem;
+  
+}
+
+.titulo {
+  font-size: 3.5rem;
+  font-weight: light;
+}
+
+.subTitulo {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.QueEsTitulo {
+  font-family: 'raleway';
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.QueEsTexto {
+  font-family: 'raleway';
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-weight: light;
+
+}
+
+.botonHistoria {
+background-color: #F46666;
+font-family: 'raleway';
+justify-content: center;
+font-weight: bold;
+color: white;
+font-size: 1.8rem;
+margin-top: 1rem;
+margin-bottom: 2rem;
+}
+
+.AlinearBoton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.wap {
+    position: fixed;
+    bottom: 7rem;
+    right: 0;
+    margin:1rem;
+}
+
+.wap img {
+    height: 4rem;
+    width: auto;
+}
+
+
+.buscadorHome {
+    background-color: #F46666;
+}
+.footerHome {
+    background-color: #E8483E ;
+}
+/*Final home*/
+
+/*Inicio contactanos*/
+
+.fondo {
+    background-image: url("../Fotos/Fondo contactanos.jpg");
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+    min-height: 31.25;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+
+.form-control {
+    background-color: #BA98F3 ;
+}
+
+.form-group {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-family: 'raleway';
+}
+
+.btn-send {
+    display: flex;
+    font-weight: 500;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2.5rem;
+    background-color: #7E44DC;
+    color: white;
+    font-family: 'raleway';
+    font-size: 1.5rem;
+    }
+
+.card {
+    bottom: 0.25rem;
+}
+
+
+
+.contacto {
+
+    background: #BA98F3;
+    padding-top: 1rem;
+  }
+  
+  button {
+    overflow: visible;
+  }
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  button, input, select, textarea {
+    color: #5A5A5A;
+    font: inherit;
+    margin: 0;
+  }
+  
+  input {
+    line-height: normal;
+  }
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  #container {
+    border: solid 3px white;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+  }
+  
+  form {
+    padding: 37.5px;
+    margin: 50px 0;
+  }
+  
+  .calltoaction {
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+.bold {
+    font-weight: 700;
+}
+
+  .email {
+      float: right;
+      width: 45%;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+      background: none;
+    border: none;
+      border-bottom: solid 2px white;
+      color: white;
+      font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+      margin: 0em 0 1.875em 0;
+      padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+      width: 100%;
+  }
+  
+  input[type='text']:focus, [type='email']:focus, textarea:focus {
+      outline: none;
+      padding: 0 0 0.875em 0;
+  }
+  
+  .name {
+      float: left;
+      width: 45%;
+  }
+  
+  .subject {
+    width: 100%;
+  }
+  
+  .telephone {
+    width: 100%;
+  }
+  
+  textarea {
+      line-height: 150%;
+      height: 9.3rem;
+      resize: none;
+      width: 100%;
+  }
+  
+  ::-webkit-input-placeholder {
+      color: white;
+  }
+
+  #form_button {
+    background: none;
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'raleway';
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+  }
+  
+  #form_button:hover {
+    background: #7E44DC;
+    color: #F2F3EB;
+  }
+  
+  
+/*Final contactanos*/
+
+/*Principio obras célebres*/
+
+
+.EstructurarGalería {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.result {
+  padding: 0;
+}
+
+.imagen {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.2s ease;
+}
+
+
+.Galería {
+  display: flex;
+  width: calc(80% - 2rem);
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.Galería:is(:hover, :focus-within) .imagen {
+  opacity: calc(0.1 + (var(--active-lerp, 0) * 0.9));
+  filter: grayscale(calc(1 - var(--active-lerp, 0)));
+}
+
+:root {
+  --lerp-0: 1;
+  --lerp-1: 0.5787037;
+  --lerp-2: 0.2962963;
+  --lerp-3: 0.125;
+  --lerp-4: 0.037037;
+  --lerp-5: 0.0046296;
+  --lerp-6: 0;
+}
+
+
+.ObraEntera {
+  outline-offset: 4px;
+}
+
+.footerObras {
+    background-color: #D8C45E;
+}
+
+/*Final obras célebres*/
+
+/*Principio Artistas*/
+.galeria {
+  margin-top: 1rem;
+}
+
+.BotonesArtistas {
+ background-color: #F6F6F6; 
+ padding-top: 1.5rem;
+ padding-bottom: 1.5rem;
+ font-family: 'raleway';
+ margin-top: 1rem;
+  width: 100%;
+ opacity: .4;
+ border-radius: 0;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.MenuArtistas {
+  background-image: url("../Fotos/Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  align-items: start;
+}
+
+.BotonMonet {
+  margin-top: 0;
+  position: relative;
+  z-index: 9000;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.BotonesArtistas:hover {
+  background-color: #2C4482;
+  color: white;
+  opacity: 1;
+}
+
+.RetratoArtistas {
+  background-image: url("../Fotos/Retratocaillebotte.jpg");
+  background-size: 105%;
+  align-self: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -14rem;
+  margin-left: -10rem;
+  width: 19rem;
+  height: 25rem;
+  border-radius: 14%;
+  z-index: 10000;
+  box-shadow: 9px 10px 25px -6px rgba(0,0,0,0.75);
+}
+
+.imagenMonet {
+width: 60vh;
+margin-top: 2rem;
+}
+
+.NombreArtista {
+  font-family: 'raleway';
+  color: #2C4482;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 3.5rem;
+}
+
+.Fechas {
+  font-family: 'raleway';
+  text-align: left;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.TextoBio {
+  font-family: 'raleway';
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  text-align: left;
+  font-weight: light;
+}
+.CallToActionFotoYBoton {
+  background-image: url("../Fotos/Puente.jpg");
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 3rem;
+ height: 20rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CallToActionFotoYBotonManet {
+  background-image: url("../Fotos/Mallarme.jpg");
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 3rem;
+  height: 20rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CallToActionFotoYBotonVincent {
+  background-image: url("../Fotos/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg");
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 3rem;
+  height: 20rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CallToActionFotoYBotonDegas {
+  background-image: url("../Fotos/Ballet.jpg");
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 3rem;
+  height: 20rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CallToActionFotoYBotonRenoire {
+  background-image: url("../Fotos/Bal\ du\ moulin.jpg");
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 3rem;
+  height: 20rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.BotonObras {
+  background-color: #5072C9;
+  justify-content: center;
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  opacity: 0.65;
+}
+
+.BotonObras:hover {
+  background-color: #5072C9;
+  opacity: 1;
+  justify-content: center;
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+ 
+}
+
+
+.footerArtistas {
+  background-color: #2C4482;
+ 
+}
+/*Final Artistas*/
+
+/*Principio Sobre la vanguardia*/
+
+.parrafoA {
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'raleway';
+  font-size: 1.1rem;
+ }
+
+.imagenNadar {
+  padding-top: 4rem;
+  margin-right: 0;
+  padding-right: 0%;
+  right: 0;
+}
+
+.parrafoB {
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'raleway';
+  font-size: 1.1rem;
+  direction: rtl;
+  padding-left: 2rem;
+}
+.imagenImpresion
+{
+  margin-left: 5rem;
+  align-content: center;
+}
+
+.imagenVanGogh {
+  margin-bottom: 2rem;
+}
+
+.parrafoC{
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'raleway';
+  font-size: 1.1rem;
+}
+
+.footerSobreVanguardia {
+    background-color: #A3B767;
+}
+
+/*Final Sobre la vanguardia*/
+
+
+
+
+/*Inicio footer*/
+footer {
+    background-color: #7542CA;
+    display: flex;
+	width: 100%;;
+	justify-content: space-between;
+	
+	height: 7.5rem;
+ 	box-sizing: border-box;
+ 	
+}
+
+footer img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.info--extra {
+    text-align: end;
+    font-family: 'raleway';
+    font-weight: 10;
+    font-size: 1rem;
+    color: white;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/*Final footer*/
+
+/*Inicio arreglo contacto*/
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+/*Final arreglo contacto*/
+
+@media (min-width: 416px) {
+/*Inicio arreglo home*/
+.dato--1 {
+    padding-right: 1rem;
+    margin-bottom: 0;
+}
+/*Final arreglo home*/
+
+.dato--2 {
+    padding-right: 1rem;
+    margin-bottom: 0;
+}
+
+
+/*Inicio arreglo footer*/
+
+.info--extra {
+    padding-right:2rem;
+ }
+
+/*Fin arreglo footer*/
+}
+
+
+/*Inicio arreglo Home*/
+
+    .boton {
+        font-size: 1.75rem;
+    }
+
+/*Final arreglo Home*/
+
+
+
+
